@@ -42,7 +42,7 @@
             "project_name": "OOP Game Show App",
             "description": "This project is a game. Users click buttons on a keyboard display to guess the letters in a phrase.",
             "technologies": ["Javascript", "HTML", "CSS"],
-            "live_link": "https://jonrene.github.io/Techdegree---Phrase-Hunter-Game/",
+            "live_link": "https://jonrene.github.io/Phrase-Hunter/",
             "github_link": "https://github.com/jonrene/Techdegree---Phrase-Hunter-Game",
             "image_urls": ["/static/images/fourth_project/s1.png",
                            "/static/images/fourth_project/s2.png",
