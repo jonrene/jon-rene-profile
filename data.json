@@ -1,0 +1,65 @@
+{
+    "projects":[
+        {
+            "id": 0,
+            "project_name": "A Quote Generator",
+            "description": "This is a project I developed during my early days of learning web development. It simply displays random quotes when user clicks a button.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://jonrene.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/jonrene/Techdegree-First-Project",
+            "image_urls":["/static/images/first_project/s1.png",
+                          "/static/images/first_project/s2.png",
+                          "/static/images/first_project/s3.png"
+            ]
+        },
+
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering Project",
+            "description": "This project uses a random user API to display pages of students(picture and info) with navigation buttons.",
+            "technologies": ["Javascript", "HTML", "CSS", "Random User Generator API"],
+            "live_link": "https://jonrene.github.io/Techdegree---Pagination/",
+            "github_link": "https://github.com/jonrene/Techdegree---Pagination",
+            "image_urls": ["/static/images/second_project/s1.png",
+                           "/static/images/second_project/s2.png",
+                           "/static/images/second_project/s3.png"]
+        },
+
+        {
+            "id": 2,
+            "project_name": "Interactive Form Project",
+            "description": "This project presents users with an interactive form to sign up for a fictional fullstack developer's conference.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://jonrene.github.io/Techdegree-Interactive-From/",
+            "github_link": "https://github.com/jonrene/Techdegree-Interactive-From",
+            "image_urls": ["/static/images/third_project/s1.png",
+                           "/static/images/third_project/s2.png",
+                           "/static/images/third_project/s3.png"]
+        },
+
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "This project is a game. Users click buttons on a keyboard display to guess the letters in a phrase.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://jonrene.github.io/Techdegree---Phrase-Hunter-Game/",
+            "github_link": "https://github.com/jonrene/Techdegree---Phrase-Hunter-Game",
+            "image_urls": ["/static/images/fourth_project/s1.png",
+                           "/static/images/fourth_project/s2.png",
+                           "/static/images/fourth_project/s3.png",
+                           "/static/images/fourth_project/s4.png"]
+        },
+
+        {
+            "id": 4,
+            "project_name": "Public API Requests Project",
+            "description": "This project uses a random user generator API to display employee ID cards for a fictional company",
+            "technologies": ["Javascript", "HTML", "CSS", "Random User Generator API"],
+            "live_link": "https://jonrene.github.io/Techdegree--Public-API-Requests/",
+            "github_link": "https://github.com/jonrene/Techdegree--Public-API-Requests",
+            "image_urls": ["/static/images/fith_project/s1.png",
+                           "/static/images/fith_project/s2.png",
+                           "/static/images/fith_project/s3.png"]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+    h1 Hello, Potential Employers
+    p Below are some of the amazing projects I've created while studying 
+      | fullstack Javascript in addition to this website. These projects are meant to 
+      | demonstrate all of my amazing skills in web development. Feel free to 
+      | click on each project to find out more. You can also click
+      a(href='/about')  here 
+      | to know more about me.
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project, index in projects
+        .cell
+            a(href=`./project/${projects[index].id}`)
+              img.thumbnail(src= `${projects[index].image_urls[0]}`, width= 260, height= 250 alt='pics site')
+              h5 #{projects[index].project_name}
