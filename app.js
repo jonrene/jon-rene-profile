@@ -36,5 +36,12 @@ app.use((err, req, res, next) => {
   }
 });
 
-// Starts the application to listen on port 3000
-app.listen(3000);
+// // Starts the application to listen on port 3000
+// app.listen(3000);
+// set our port
+app.set('port', process.env.PORT || 5000);
+
+// start listening on our port
+const server = app.listen(app.get('port'), () => {
+  console.log(`Express server is listening on port ${server.address().port}`);
+});
